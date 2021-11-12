@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'currency-converter';
+  title = 'currency-converter by maecq';
+  clickCounter = 0;
+
+  incrementCounter(){
+    this.clickCounter++; 
+  }
+
 }
